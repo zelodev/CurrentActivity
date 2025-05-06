@@ -1,6 +1,6 @@
 plugins {
     id("ca.android.library")
-    id("ca.android.compose")
+    id("ca.compose-compiler")
 }
 
 dependencies {
@@ -11,7 +11,6 @@ dependencies {
 
 dependencies {
     api(accompanist.swipeRefresh)
-    api(accompanist.systemUiController)
     api(androidx.activity.compose)
     api(androidx.compose.material.icons.extended)
     api(androidx.compose.material3)

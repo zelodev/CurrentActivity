@@ -1,6 +1,6 @@
 plugins {
     id("ca.android.library")
-    id("ca.android.compose")
+    id("ca.compose-compiler")
 }
 
 dependencies {
@@ -10,6 +10,5 @@ dependencies {
 dependencies {
     api(androidx.core.splashScreen)
     api(material)
-    compileOnly(accompanist.systemUiController)
     compileOnly(androidx.compose.material3)
 }

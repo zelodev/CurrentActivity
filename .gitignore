@@ -1,6 +1,9 @@
-!/.idea/detekt.xml
 .DS_Store
 /.gradle
 /.idea
+/.kotlin
 /build
 /local.properties
+
+!/.idea/detekt.xml
+!/.idea/jsonSchemas.xml
